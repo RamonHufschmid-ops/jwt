@@ -23,4 +23,8 @@ public class UserService {
 
         return users;
     }
+
+    public long AllUserCount() {
+        return userRepository.count();
+    }
 }
